@@ -8,8 +8,8 @@
 
     // Frameworks
     #import <Cocoa/Cocoa.h>
-    #import <AFNetworking/AFNetworking.h>
-    #import <MagicalRecord/CoreData+MagicalRecord.h>
+    #import "AFNetworking.h"
+    #import "CoreData+MagicalRecord.h"
     #import <QuartzCore/QuartzCore.h>
 
     // Categories

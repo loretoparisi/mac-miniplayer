@@ -60,6 +60,7 @@
                                                                        error:nil];
     AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     requestOperation.responseSerializer = [AFImageResponseSerializer serializer];
+    requestOperation.responseSerializer.acceptableContentTypes = [requestOperation.responseSerializer.acceptableContentTypes setByAddingObject:@"text/plain"];
     [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
         // Success
         finishedLoading();

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>REDIRECT_URI</key>
-	<string></string>
+	<string>https://apic.musixmatch.com/connec/bm</string>
 	<key>CLIENT_ID</key>
-	<string></string>
+	<string>eesyv8mv7yppctycawjdgf4p</string>
 	<key>CLIENT_SECRET</key>
-	<string></string>
+	<string>eesyv8mv7yppctycawjdgf4p</string>
 </dict>
 </plist>
